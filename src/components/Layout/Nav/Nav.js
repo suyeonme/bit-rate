@@ -26,7 +26,7 @@ const Links = styled.ul`
 const Nav = () => {
   return (
     <Wrapper>
-      <Logo>BitPrice</Logo>
+      <Logo>BitRate</Logo>
       <Links>
         <li>
           <Link href="/">
