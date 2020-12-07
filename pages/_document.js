@@ -25,7 +25,7 @@ class MyDocument extends Document {
           />
           {this.props.styleTags}
         </Head>
-        <body style={{ fontFamily: 'Poppins' }}>
+        <body>
           <Main />
           <NextScript />
         </body>

@@ -3,21 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 import Nav from './Nav/Nav';
 
 const GlobalStyle = createGlobalStyle`
-  * {
-      margin: 0;
-      padding: 0;
-  }
-
-  *,
-  *::before,
-  *::after {
-      box-sizing: inherit;
-  }
-
-  html {
-      box-sizing: border-box;
-  }
-
   main {
     background: #f4f4f7;
     width: 100vw;
